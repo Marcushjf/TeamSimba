@@ -1,4 +1,4 @@
-
+from token_1 import BOT_USERNAME, TOKEN
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackContext, CallbackQueryHandler
 
