@@ -5,7 +5,7 @@ import os
 import playsound
 
 # Initialize the OpenAI object with your API key
-openai = OpenAI(api_key='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')
+openai = OpenAI(api_key='')
 
 # Function to transcribe speech to text
 def listen_to_speech(recognizer, microphone):

@@ -1,14 +1,13 @@
 import { Fragment, useState } from "react";
 import OpenAI from "openai";
 import memory from '../assets/memory.png'
-import OPENAI_API_KEY from "../SECRET";
 
 const ImageGen = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [jobDescription, setjobDescription] = useState<string>("");
   const [resultDescription, setResultDescription] = useState<string>("");
   const openai = new OpenAI({
-    apiKey: OPENAI_API_KEY,
+    apiKey: '',
     dangerouslyAllowBrowser: true,
   });
 
